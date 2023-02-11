@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Web Site</title>
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+
+    <!--! NAV MENU-->
+    <nav>
+        <a id="logo" href="index.html"><img src="/images/logo.png" alt="logo"></a>
+        <div id="navbar-nav">
+            <a class="active" href="index.html">Home</a>
+            <a href="html/about.html">About</a>
+            <a href="html/menu.html">Menu</a>
+            <a href="html/products.html">Products</a>
+            <a href="html/review.html">Review</a>
+            <a href="html/contact.html">Contact</a>
+            <a href="html/blogs.html">Blogs</a>
+        </div>
+
+        <div id="navbar-icons">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div id="s-area">
+            <input type="text" id="src" placeholder="Search Here">
+            <label for="src"><i class="fa-solid fa-magnifying-glass"></i></label>
+        </div>
+
+        <div id="shopping-cart">
+            <div id="s-cart-container">
+                <div class="s-cart-item">
+                    <img src="/images/menu-1.png" alt="">
+                    <h3>Mini Pizza</h3>
+                    <span>$10.99 / 1</span>
+                </div>
+                <div class="s-cart-item">
+                    <img src="/images/menu-3.png" alt="">
+                    <h3>Deluxe Pizza</h3>
+                    <span>$10.99 / 1</span>
+                </div>
+                <div class="s-cart-item">
+                    <img src="/images/product-2.png" alt="">
+                    <h3>Dark Burger</h3>
+                    <span>$10.99 / 1</span>
+                </div>
+            </div>
+            <button class="btn">Checkout</button>
+        </div>
+
+    </nav>
+
+    <!--! WELCOME PAGE-->
+    <main>
+        <div id="main-container">
+            <h1>EXPRESS HOME DELIVERY</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta reprehenderit fugiat cupiditate ut repellat fugit? Tenetur labore accusamus quaerat ipsam!</p>
+            <button class="btn">Order Now!</button>
+        </div>
+    </main>
+
+    <!--! MENU -->
+    <section>
+        <h1><span>OUR</span> MENU</h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="/images/menu-1.png" alt="">
+                <span>PIZZA</span>
+                <h2>6 Mini Pizzas</h2>
+                <p>$109.99 <span>120.00</span></p>
+                <button class="btn">Add To Cart</button>
+            </div>
+            <div class="box">
+                <img src="/images/menu-2.png" alt="">
+                <span>BURGER</span>
+                <h2>5 Mini Burgers</h2>
+                <p>$99.99 <span>105.99</span></p>
+                <button class="btn">Add To Cart</button>
+            </div>
+            <div class="box">
+                <img src="/images/menu-3.png" alt="">
+                <span>PIZZA</span>
+                <h2>2 Mixed Pizzas</h2>
+                <p>$49.99 <span>61.00</span></p>
+                <button class="btn">Add To Cart</button>
+            </div>
+            <div class="box">
+                <img src="/images/menu-4.png" alt="">
+                <span>BURGER</span>
+                <h2>3 Meatball Burgers</h2>
+                <p>$79.99 <span>90.00</span></p>
+                <button class="btn">Add To Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!--! PRODUCTS -->
+    <section id="products">
+        <h1><span>OUR</span> PRODUCTS</h1>
+        <div class="box-container">
+            <div class="box">
+                <h3>MINI BURGER</h3>
+                <h1>Bacon Burger</h1>
+                <img src="/images/product-1.png" alt="">
+                <div class="box-info">
+                    <div>
+                        <h2>$7.99</h2>
+                        <h3>110gr / 300cal</h3>
+                    </div>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+            </div>
+            <div class="box">
+                <h3>MINI BURGER</h3>
+                <h1>Dark Burger</h1>
+                <img src="/images/product-2.png" alt="">
+                <div class="box-info">
+                    <div>
+                        <h2>$10.99</h2>
+                        <h3>130gr/350cal</h3>
+                    </div>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+            </div>
+            <div class="box">
+                <div>
+                    <h3>MINI BURGER</h3>
+                    <h1>Chief's Burger</h1>
+                </div>
+                <div class="box-info">
+                    <div>
+                        <h2>$11.99</h2>
+                        <h3>150gr/370cal</h3>
+                    </div>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--! ABOUT US -->
+    <section id="about-us">
+        <h1><span>ABOUT</span> US</h1>
+        <div id="container">
+            <div><img src="/images/about.jpg" alt=""></div>
+            <div>
+                <h1>What Is Secret Recipe Of Our Burgers?</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nam optio eligendi placeat beatae perferendis soluta, nesciunt magnam distinctio dolores impedit dicta rerum quae voluptas veniam a, aliquam at natus saepe odit nostrum! Veritatis, ab quasi? Pariatur distinctio facilis nisi eligendi placeat. Sapiente molestiae perspiciatis praesentium error velit, quibusdam debitis!</p>
+                <button class="btn">Read More</button>
+            </div>
+        </div>
+    </section>
+
+    <!--! REVIEW-->
+    <section id="review">
+        <h1><span>CUSTOMER'S</span> REVIEW</h1>
+        <div class="card-container">
+            <div class="card">
+                <i class="fa-solid fa-quote-right"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi rerum, dolore illum ex quibusdam ad nisi. Voluptatem est esse sunt?</p>
+                <div class="card-person">
+                    <img src="/images/avatar-1.png" alt="">
+                    <h2>Jennifer Becker</h2>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-quote-right"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi rerum, dolore illum ex quibusdam ad nisi. Voluptatem est esse sunt?</p>
+                <div class="card-person">
+                    <img src="/images/avatar-2.png" alt="">
+                    <h2>John Doe</h2>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-quote-right"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi rerum, dolore illum ex quibusdam ad nisi. Voluptatem est esse sunt?</p>
+                <div class="card-person">
+                    <img src="/images/avatar-3.png" alt="">
+                    <h2>Lisa Arambula</h2>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--! CONTACT-->
+    <section id="contact">
+        <h1><span>CONTACT</span> US</h1>
+        <div id="contact-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6686241.169921118!2d-84.35271361353344!3d35.08757412025959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88541fc4fc381a81%3A0xad3f30f5e922ae19!2sKuzey%20Carolina%2C%20Amerika%20Birle%C5%9Fik%20Devletleri!5e0!3m2!1str!2str!4v1676060714785!5m2!1str!2str" width="" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div id="get-in-touch">
+                <h1>GET IN TOUCH</h1>
+                <div id="inputs">
+                    <div class="inp">
+                        <label for="name"><i class="fa-solid fa-user"></i></label>
+                        <input type="text" id="name" placeholder="Name">
+                    </div>
+
+                    <div class="inp">
+                        <label for="mail"><i class="fa-solid fa-envelope"></i></label>
+                        <input type="email" id="mail" placeholder="user@mail.com">
+                    </div>
+
+                    <div class="inp">
+                        <label for="phone"><i class="fa-solid fa-phone"></i></label>
+                        <input type="tel" id="phone" placeholder="Phone Number">
+                    </div>
+                </div>
+                <button class="btn">Contact Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!--! BLOG-->
+    <section id="blog">
+        <h1><span>OUR</span> BLOG</h1>
+        <div id="b-card-container">
+
+            <div class="b-card">
+                <div class="b-card-img"><img src="/images/blog-1.jpg" alt=""></div>
+                <div class="b-card-info">
+                    <h5>How to Make Burgers?</h5>
+                    <h1>By Admin / 10st May,2022</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sunt quis necessitatibus porro officia, perferendis labore. Repudiandae magni eveniet corrupti eos ducimus aliquid repellat, itaque placeat quia quis maxime quasi. Ipsa, fugit. Et, placeat optio.</p>
+                    <button class="btn">Read More</button>
+                </div>
+            </div>
+
+            <div class="b-card">
+                <div class="b-card-img"><img src="/images/blog-2.jpg" alt=""></div>
+                <div class="b-card-info">
+                    <h5>How to Make Burgers?</h5>
+                    <h1>By Admin / 10st May,2022</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sunt quis necessitatibus porro officia, perferendis labore. Repudiandae magni eveniet corrupti eos ducimus aliquid repellat, itaque placeat quia quis maxime quasi. Ipsa, fugit. Et, placeat optio.</p>
+                    <button class="btn">Read More</button>
+                </div>
+            </div>
+
+            <div class="b-card">
+                <div class="b-card-img"><img src="/images/blog-3.jpg" alt=""></div>
+                <div class="b-card-info">
+                    <h5>How to Make Burgers?</h5>
+                    <h1>By Admin / 10st May,2022</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sunt quis necessitatibus porro officia, perferendis labore. Repudiandae magni eveniet corrupti eos ducimus aliquid repellat, itaque placeat quia quis maxime quasi. Ipsa, fugit. Et, placeat optio.</p>
+                    <button class="btn">Read More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--! FOOTER-->
+    <footer>
+        <div id="f-search">
+            <input type="text" placeholder="Search">
+        </div>
+
+        <div id="brands">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-tiktok"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+
+        <div id="navs">
+            <a href="index.html" class="navs-active">Home</a>
+            <a href="html/about.html">About</a>
+            <a href="html/products.html">Products</a>
+            <a href="html/review.html">Review</a>
+            <a href="html/contact.html">Contact</a>
+            <a href="html/blogs.html">Blogs</a>
+        </div>
+
+        <p>Created by <span>Hakan Kaya</span> | 2023</p>
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>

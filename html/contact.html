@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Web Site</title>
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+
+    <!--! NAV MENU-->
+    <nav>
+        <a id="logo" href="/index.html"><img src="/images/logo.png" alt="logo"></a>
+        <div id="navbar-nav">
+            <a href="/index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="products.html">Products</a>
+            <a href="review.html">Review</a>
+            <a class="active" href="contact.html">Contact</a>
+            <a href="blogs.html">Blogs</a>
+        </div>
+        <div id="navbar-icons">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div id="s-area">
+            <input type="text" id="src" placeholder="Search Here">
+            <label for="src"><i class="fa-solid fa-magnifying-glass"></i></label>
+        </div>
+
+        <div id="shopping-cart">
+            <div id="s-cart-container">
+                <div class="s-cart-item">
+                    <img src="/images/menu-1.png" alt="">
+                    <h3>Mini Pizza</h3>
+                    <span>$10.99 / 1</span>
+                </div>
+                <div class="s-cart-item">
+                    <img src="/images/menu-3.png" alt="">
+                    <h3>Deluxe Pizza</h3>
+                    <span>$10.99 / 1</span>
+                </div>
+                <div class="s-cart-item">
+                    <img src="/images/product-2.png" alt="">
+                    <h3>Dark Burger</h3>
+                    <span>$10.99 / 1</span>
+                </div>
+            </div>
+            <button class="btn">Checkout</button>
+        </div>
+    </nav>
+
+    <!--! CONTACT-->
+    <section id="contact">
+        <h1><span>CONTACT</span> US</h1>
+        <div id="contact-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6686241.169921118!2d-84.35271361353344!3d35.08757412025959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88541fc4fc381a81%3A0xad3f30f5e922ae19!2sKuzey%20Carolina%2C%20Amerika%20Birle%C5%9Fik%20Devletleri!5e0!3m2!1str!2str!4v1676060714785!5m2!1str!2str" width="" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div id="get-in-touch">
+                <h1>GET IN TOUCH</h1>
+                <div id="inputs">
+                    <div class="inp">
+                        <label for="name"><i class="fa-solid fa-user"></i></label>
+                        <input type="text" id="name" placeholder="Name">
+                    </div>
+
+                    <div class="inp">
+                        <label for="mail"><i class="fa-solid fa-envelope"></i></label>
+                        <input type="email" id="mail" placeholder="user@mail.com">
+                    </div>
+
+                    <div class="inp">
+                        <label for="phone"><i class="fa-solid fa-phone"></i></label>
+                        <input type="tel" id="phone" placeholder="Phone Number">
+                    </div>
+                </div>
+                <button class="btn">Contact Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!--! FOOTER-->
+    <footer>
+        <div id="f-search">
+            <input type="text" placeholder="Search">
+        </div>
+
+        <div id="brands">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-tiktok"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+
+        <div id="navs">
+            <a href="/index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="products.html">Products</a>
+            <a href="review.html">Review</a>
+            <a class="navs-active" href="contact.html">Contact</a>
+            <a href="blogs.html">Blogs</a>
+        </div>
+
+        <p>Created by <span>Hakan Kaya</span> | 2023</p>
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>

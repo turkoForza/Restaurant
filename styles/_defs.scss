@@ -1,0 +1,39 @@
+.btn{
+    width: 12rem;
+    height: 6rem;
+    border-radius: 2rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s background-color;
+    &:hover{
+        background-color: red;
+        transition: 0.5s all;
+    }
+}
+
+.active{
+        padding-bottom: 0.5rem;
+        border-width: 0.2rem !important;
+}
+
+.navs-active{
+    background-color: black !important;
+}
+
+.box{
+
+    display: flex;
+    flex-direction: column;
+
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.s-active{
+    display: flex !important;
+}
+
